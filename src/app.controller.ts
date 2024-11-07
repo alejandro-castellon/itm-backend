@@ -1,9 +1,9 @@
 import { Controller, Get } from '@nestjs/common';
 
-@Controller()
+@Controller('api')
 export class AppController {
   @Get()
   getHello(): string {
-    return 'Hello from NestJS on Vercel!';
+    return 'Hello World!';
   }
 }
